@@ -1,1 +1,0 @@
-reverseArray(arr.map(arr.pop, [...arr]));
