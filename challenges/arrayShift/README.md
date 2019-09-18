@@ -1,9 +1,9 @@
-## Challenge 1: Reverse An Array
+## Challenge 2: Shift An Array
 <!-- Short summary or background information -->
 
 ### Challenge
 <!-- Description of the challenge -->
-Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
 ### Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -16,4 +16,4 @@ Return new array
 }
 
 ### Solution
-![Image](../../assests/CC01.jpg)
+![Image](../../assests/CC02.jpg)
