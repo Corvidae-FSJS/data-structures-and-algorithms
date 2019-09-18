@@ -7,6 +7,8 @@ Write a function called insertShiftArray which takes in an array and the value t
 
 ### Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Start at the backend and shift from that end
+
 
 Create function {
 Create new array
