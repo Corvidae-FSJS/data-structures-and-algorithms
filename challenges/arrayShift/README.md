@@ -10,12 +10,6 @@ Write a function called insertShiftArray which takes in an array and the value t
 Start at the backend and shift from that end
 
 
-Create function {
-Create new array
-  (Loop){
-  Take indices 1 by 1 from end of old array to beginning of new array}
-Return new array
-}
 
 ### Solution
 ![Image](../../assests/CC02.jpg)
