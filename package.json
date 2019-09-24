@@ -22,7 +22,12 @@
   },
   "homepage": "https://github.com/Corvidae-FSJS/data-structures-and-algorithms#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "eslint": "^6.4.0"
+=======
+    "eslint": "^6.4.0",
+    "jsdoc": "^3.6.3"
+>>>>>>> 680769815b175584c272b962e9d102efad011b77
   },
   "dependencies": {
     "jest": "^24.9.0"

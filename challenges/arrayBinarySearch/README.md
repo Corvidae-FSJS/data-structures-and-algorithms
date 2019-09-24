@@ -1,4 +1,4 @@
-## Challenge 3: Binary Search in an Array
+## Challenge 3: Binary Search on an Array
 <!-- Short summary or background information -->
 
 ### Challenge
@@ -7,13 +7,8 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ### Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Use a while loop to cut the array in half, search each half to see if the num in question is =, >, or < the middle value, start next search at + or - 1 from middle number, divide in half again and repeat. Continue to do so until leaving the while loop eithe rby finding the number or by not finding the number, return -1/.
 
-Create function {
-Create new array
-  (Loop){
-  Take indices 1 by 1 from end of old array to beginning of new array}
-Return new array
-}
 
 ### Solution
-![Image](../../assests/CC01.jpg)
+![Image](../../assests/CC03.jpg)
