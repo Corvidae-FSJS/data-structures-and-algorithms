@@ -7,7 +7,7 @@ function reverseArray(arr) {
   for(let i = 0; i < arr.length; i++) {
     newArr[i] = arr[arr.length - (i + 1)];
   }
-  return newArr
+  return newArr;
 }
 
 console.log(reverseArray(array1));
@@ -27,7 +27,7 @@ function reverse(arr) {
 }
 
 
-MORE PREFERRED  USES LESS MEMORY, ENERGY
+MORE PREFERRED USES LESS MEMORY, ENERGY
 function reverse2(arr) {
   for(let i =0; i < arr.length/2; i++) {
     const temp = arr[i];
