@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --verbose --passWithNoTests",
-    "lint": "eslint '**/*.js'",
-    "test:watch": "npm run test -- --watch",
+    "lint": "eslint \"**/*.js\"",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "repository": {
