@@ -4,3 +4,4 @@
 
 ## Challenge 2: Shift An Array
 
+## Challenge 2: Binary Search An Array
