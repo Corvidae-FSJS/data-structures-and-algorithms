@@ -60,12 +60,58 @@ describe('linked lists', () => {
     expect(list.includes('third')).toBe(true);
   });
 
-  // it('will return an array of values', () => {
-  //   const list = new LinkedList;
-  //   list.insert('first');
-  //   list.insert('second');
-  //   list.insert('third');
+  it('will return an array of values', () => {
+    const list = new LinkedList;
+    list.insert('first');
+    list.insert('second');
+    list.insert('third');
 
-  //   expect(list.toString()).toBe('third, second, first');
-  // });
+    expect(list.toString()).toBe('third, second, first, ');
+  });
+
+  it('Appends a value to the end of the list', () => {
+    const list = new LinkedList;
+    list.append('first');
+    list.append('second');
+    list.append('third');
+
+    expect(list.head.value).toEqual('first');
+    expect(list.head.next.value).toEqual('second');
+    expect(list.head.next.next.value).toEqual('third');
+    expect(list.size).toBe(3);
+  });
+
+  it('Appends a new node with the given new value immediately before the first value node', () => {
+    const list = new LinkedList;
+    expect.assertions(5);
+    list.append('first');
+    list.append('third');
+    list.insertBefore('third', 'second');
+    
+    expect(list.head.value).toEqual('first');
+    expect(list.head.next.value).toEqual('second');
+    expect(list.head.next.next.value).toEqual('third');
+    expect(list.size).toBe(3);
+    const emptyList = new LinkedList;
+    expect(() => {
+      emptyList.insertBefore(1, 2);
+    }).toThrow('cannot use insertBefore on empty list');
+  });
+
+  it('Appends a new node with the given new value immediately after the first value node', () => {
+    const list = new LinkedList;
+    expect.assertions(5);
+    list.append('first');
+    list.append('third');
+    list.insertAfter('first', 'second');
+    
+    expect(list.head.value).toEqual('first');
+    expect(list.head.next.value).toEqual('second');
+    expect(list.head.next.next.value).toEqual('third');
+    expect(list.size).toBe(3);
+    const emptyList = new LinkedList;
+    expect(() => {
+      emptyList.insertAfter(1, 2);
+    }).toThrow('cannot use insertAfter on empty list');
+  });    
 });

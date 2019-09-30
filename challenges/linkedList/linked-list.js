@@ -41,24 +41,79 @@ class LinkedList {
   }
 
   /**
-   * Turns all the values form the list into a string
+   * Turns all the values from the list into a string
    * @returns {string}
    */
   
   toString() {
-    let string = `${this.head.value}`;
-    let currentNode = this.head.next;
+    let string = '';
+    let currentNode = this.head;
     for(let i = 0; i < this.size; i++) {
-      string = string + `, ${currentNode.value}`;
+      string = string + `${currentNode.value}, `;
       currentNode = currentNode.next;
     } 
     return string;
   }
 
-  append() {
+  /**
+   * Adds a new node with the given value to the end of the list
+   * @returns {string}
+   */
+  
+  append(value) {
+    const node = new Node(value);
+
+    if(this.size) {
+      this.tail.next = node;
+      node.previous = this.tail;
+      this.tail = node;
+    }
+    else {
+      this.head = node;
+      this.tail = node;
+    }
+    this.size++;
+
+    return node.value;
+  }
+
+    /**
+   * Add a new node with the given newValue immediately before the first value node
+   * @returns {string}
+   */
+
+  insertBefore(value, newValue) {
     let currentNode = this.head;
-    for(let i = 0; i < this.size; i++) {
-      currentNode = currentNode.next;
+    if(currentNode) {
+      while(currentNode.next.value !== value) {
+        currentNode = currentNode.next;
+      }
+      const node = new Node(newValue);
+      node.next = currentNode.next;
+      currentNode.next = node;
+      this.size++;
+    } else {
+      throw new Error('cannot use insertBefore on empty list');
+    }
+  }
+
+    /**
+   * Add a new node with the given newValue immediately after the first value node
+   * @returns {string}
+   */
+
+  insertAfter(value, newValue) {
+    let currentNode = this.head;
+    if(currentNode) {
+      while(currentNode.value !== value) {
+        currentNode = currentNode.next;
+      }
+      const node = new Node(newValue);
+      node.next = currentNode.next;
+      currentNode.next = node;
+      this.size++;
+    } else {
+      throw new Error('cannot use insertAfter on empty list');
     }
   }
 }
