@@ -26,7 +26,8 @@ function reverse(arr) {
   return reversed;
 }
 
-MORE PREFERRED USES LESS MEMORY, ENERGY
+// eslint-disable-next-line no-irregular-whitespace
+MORE PREFERRED USES LESS MEMORY, ENERGY
 
 function reverse2(arr) {
   for(let i =0; i < arr.length/2; i++) {
