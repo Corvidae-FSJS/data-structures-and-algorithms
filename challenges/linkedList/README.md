@@ -1,5 +1,5 @@
 ## Challenge 5: Linked Lists
-<!-- Short summary or background information -->
+Creating linked lists
 
 ### Challenge
 <!-- Description of the challenge -->
