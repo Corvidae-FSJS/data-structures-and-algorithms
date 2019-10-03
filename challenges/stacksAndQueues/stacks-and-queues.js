@@ -30,7 +30,7 @@ class Stack {
   pop() {
     let result;
     if(this.top) {
-      result - this.top.value;
+      result = this.top.value;
       this.top = this.top.next;
     }
     else result = null;
