@@ -9,7 +9,6 @@ This object should be aware of a default empty value assigned to top when the st
 2. Define a method called pop that does not take any argument, removes the node from the top of the stack, and returns the node’s value.
 3. Define a method called peek that does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
 
-
 - Create a Queue class that has a front property. It creates an empty Queue when instantiated.
 This object should be aware of a default empty value assigned to front when the queue is created.
 
@@ -18,7 +17,7 @@ This object should be aware of a default empty value assigned to front when the 
 3. Define a method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
 
 ## Approach & Efficiency
-I created a node class that stores values for the node and a pointer to the next node. I created a stack class with a top property which makes an empty stack when instantiated. And then I created a queue class with a front property that instantiates an empty queue.
+I created a node class that stores values for the node and a pointer to the next node. Then created a stack class with a top property which makes an empty stack when instantiated. And then I created a queue class with a front property that instantiates an empty queue.
 
 ## Solution
 ![Image](../../assests/CC10.jpg)
