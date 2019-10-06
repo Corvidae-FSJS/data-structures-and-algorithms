@@ -13,4 +13,4 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 
 
 ## Solution
-![Image](../../assests/CC11.jpg)
+![Image](../../assests/CC10.jpg)
