@@ -91,7 +91,9 @@ class Queue {
    * @param
    */
   peek() {
-    return this.front.value;
+    if(this.front)
+      return this.front.value;
+    else return null;
   }
 }
 
