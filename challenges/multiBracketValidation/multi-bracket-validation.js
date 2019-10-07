@@ -22,7 +22,7 @@ function multiBracketValidation(input) {
   if(stack.top) {
     return false;
   }
-  for(let j = 0; j< array.length; j++){
+  for(let j = 0; j < array.length; j++){
     if(array[j] !== 1){
       result = false;
     } else {

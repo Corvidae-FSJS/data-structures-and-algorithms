@@ -10,7 +10,7 @@ Curly Brackets : {}
 
 
 ## Approach & Efficiency
-
+Create a stack, push displayed bracket into array, pop brackets off when opposing bracket encountered.
 
 ## Solution
 ![Image](../../assests/CC13.jpg)
