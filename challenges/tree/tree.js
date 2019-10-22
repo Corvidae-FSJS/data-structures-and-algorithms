@@ -23,17 +23,17 @@ class BinaryTree {
 
   inOrder(node) {
     if(node) {
-      this.preOrder(node.left);
+      this.inOrder(node.left);
       this.traversalArray.push(node.value);
-      this.preOrder(node.right);
+      this.inOrder(node.right);
     }
     return this.traversalArray;
   }
 
   postOrder(node) {
     if(node) {
-      this.preOrder(node.left);
-      this.preOrder(node.right);
+      this.postOrder(node.left);
+      this.postOrder(node.right);
       this.traversalArray.push(node.value);
     }
     return this.traversalArray;
@@ -41,6 +41,7 @@ class BinaryTree {
 
   add(value) {
     let newNode = new Node(value);
+
     if(this.root === null) {
       this.root = newNode;
     }
@@ -49,7 +50,7 @@ class BinaryTree {
     }
   }
 
-  addnode(node, newNode) {
+  addNode(node, newNode) {
     if(newNode.value < node.value) {
       if(node.left === null) {
         node.left = newNode;
@@ -76,7 +77,7 @@ class BinaryTree {
     else if(value.left !== null && value < this.value) {
       this.add(this.left);
     }
-    else if(value.right !== null && value > this.value) {
+    else if(this.right !== null && value > this.value) {
       this.add(this.right);
     }
     this.add(this);
@@ -86,5 +87,5 @@ class BinaryTree {
 
 module.exports = {
   Node,
-  BinarTree,
+  BinaryTree,
 };
