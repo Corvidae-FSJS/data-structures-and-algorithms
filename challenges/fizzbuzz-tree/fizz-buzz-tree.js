@@ -1,5 +1,5 @@
 const fizzBuzzTree = (tree) => {
-  if(tree.value % 3 === 0 && tree.value % === 0) {
+  if(tree.value % 3 === 0 && tree.value % 5 === 0) {
     tree.value = 'FizzBuzz';
   }
   else if(tree.value % 3 === 0) {
