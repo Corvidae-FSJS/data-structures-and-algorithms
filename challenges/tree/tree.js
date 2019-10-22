@@ -1,3 +1,5 @@
+const {}
+
 class Node {
   constructor(value) {
     this.value = value;
