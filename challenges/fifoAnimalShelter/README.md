@@ -1,4 +1,4 @@
-## Challenge 2: First In First Out
+## Challenge 12: First In First Out
 First-in, First out Animal Shelter
 
 ### Challenge

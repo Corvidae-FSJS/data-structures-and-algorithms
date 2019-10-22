@@ -9,3 +9,19 @@
 ## Challenge 5: Linked List
 
 ## Challenge 6: Linked List Insertions
+
+## Challenge 7: K-th Value From The End Of a Linked List
+
+## Challenge 8: Merging Linked Lists
+
+## Challenge 10: Stack And A Queue Implementation
+
+## Challenge 11: Implement A Queue Using Two Stacks
+
+## Challenge 12: First-In, First-Out
+
+## Challenge 13: Multi-Bracket Validation
+
+## Challenge 15: Binary Tree and BST Implementation
+
+## Challenge 16: 

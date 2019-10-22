@@ -7,5 +7,8 @@ class Node {
 }
 
 class BinaryTree {
-  
+  constructor() {
+    this.root = null;
+    this.traversalArray = [];
+  }
 }
