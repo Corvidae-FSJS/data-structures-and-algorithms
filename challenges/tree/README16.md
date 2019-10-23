@@ -1,4 +1,4 @@
-## Challenge 16: Breadth First Tree Traversal
+## Challenge 17: Breadth First Tree Traversal
 Breadth-first Traversal.
 
 ## Challenge Description
