@@ -1,4 +1,4 @@
-## Challenge 16: Insertion Sort
+## Challenge 26: Insertion Sort
 Insertion Sort
 
 ### Challenge
