@@ -1,7 +1,7 @@
 const mergeLists = require('../challenges/llMerge/ll-merge');
 const llModel = require('../challenges/linkedList/linked-list');
 
-describe('Merge Lists', () => {
+describe.skip('Merge Lists', () => {
   it('merges two lists when list1 is longer', () => {
     const list1 = new llModel.LinkedList();
     list1.insert('A Greater Call');
