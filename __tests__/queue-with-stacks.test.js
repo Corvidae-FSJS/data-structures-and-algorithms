@@ -1,6 +1,6 @@
 const PseudoQueue = require('../challenges/queueWithStacks/queue-with-stacks.js');
 
-describe('Stacks and Queues', () => {
+describe.skip('Stacks and Queues', () => {
 
   it('pop all nodes into a new stack', () => {
     const queue = new PseudoQueue();
