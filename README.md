@@ -24,4 +24,8 @@
 
 ## Challenge 15: Binary Tree and BST Implementation
 
-## Challenge 16: 
+## Challenge 16: FizzBuzz
+
+## Challenge 17: Breadth First Tree Traversal
+
+## Challenge 18: Find Maximum Value In A Binary Tree

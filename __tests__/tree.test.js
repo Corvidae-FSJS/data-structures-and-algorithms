@@ -79,4 +79,17 @@ describe('Binary tree', () => {
 
     expect(tree.breadthFirst(tree.root)).toEqual([10, 4, 12, 1, 5, 11]);
   });
+
+  it('Can successfully find the maximum value', () => {
+    const tree = new BinaryTree();
+
+    tree.add(10);
+    tree.add(4);
+    tree.add(1);
+    tree.add(12);
+    tree.add(11);
+    tree.add(5);
+
+    expect(tree.findMaximumValue(tree)).toEqual(12);
+  });
 });
