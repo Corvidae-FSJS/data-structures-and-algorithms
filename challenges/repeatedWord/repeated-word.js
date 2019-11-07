@@ -1,17 +1,15 @@
 const repeatedWord = (book) => {
   const noPunctuation = book.replace(/[^\w\s]/, '');
-  const wordList = noPunctuation.toLowerCase().split(' ');
-  let wordCount = {};
-  let answer;
+  const splitStringArr = noPunctuation.toLowerCase().split(' ');
+  let wordList = {};  
 
-  for(let i = 0; i < wordList.length; i++) {
-    if(!wordCount[wordList[i]]) {
-      wordCount[wordList[i]] = 1;
+  for(let i = 0; i < splitStringArr.length; i++) {
+    if(!wordList[splitStringArr[i]]) {
+      wordList[splitStringArr[i]] = 1;
     } else {
-      answer = wordList[i];
+      return splitStringArr[i];
     }
   }
-  return answer;
 };
 
 module.exports = repeatedWord;
