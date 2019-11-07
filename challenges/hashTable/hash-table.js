@@ -30,6 +30,15 @@ class Hashtable {
       }
     }
   }
+
+  contains(key) {
+    const index = this.hash(key);
+
+    if(this.bucket[index]) {
+      return true;
+    }
+    return false;
+  }
 }
 
 module.exports = Hashtable;

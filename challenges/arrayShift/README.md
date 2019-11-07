@@ -12,4 +12,4 @@ Start at the backend and shift from that end
 
 
 ### Solution
-![Image](../../assests/CC02.jpg)
+![Image](../../assets/CC02.jpg)

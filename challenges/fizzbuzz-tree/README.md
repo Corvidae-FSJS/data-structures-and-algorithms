@@ -17,4 +17,4 @@ Conduct “FizzBuzz” on a tree while traversing through it. Change the values 
 I wrote a function named fizzBuzzTree that take a tree as an argument.  Then determined if the value of each node was divisible by 3, 5 or both and changed the value of each node to fizz, buzz, or fizzbuzz accordingly.
 
 ## Solution
-![Image](../../assests/CC16.jpg)
+![Image](../../assets/CC16.jpg)

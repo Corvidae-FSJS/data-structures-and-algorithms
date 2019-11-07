@@ -42,4 +42,4 @@ ALGORITHM Merge(left, right, arr)
 
 
 ### Solution
-![Image](../../assests/CC27.jpg)
+![Image](../../assets/CC27.jpg)

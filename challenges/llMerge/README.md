@@ -8,4 +8,4 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 Using while loops and if statements, take the list that is longer and add a value to the start of a new list, continue added from the longer of the two lists, if lists both the same size take from the first list argument.  If one list is much longer just keep adding the values from that longer list until all values from original lists added to new list.
 
 ## Solution
-![Image](../../assests/CC08.jpg)
+![Image](../../assets/CC08.jpg)

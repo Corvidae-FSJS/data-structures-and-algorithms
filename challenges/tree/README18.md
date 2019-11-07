@@ -8,4 +8,4 @@ Find the Maximum Value in a Binary Tree.
 
 
 ## Solution
-![Image](../../assests/CC18.jpg)
+![Image](../../assets/CC18.jpg)

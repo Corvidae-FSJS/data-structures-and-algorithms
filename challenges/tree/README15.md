@@ -16,4 +16,4 @@ Implement a Tree
 I created a Node class with properties for the value stored in the left and right child nodes. Then I created a Binary Tree class with methods for each of the depth-first traversals, preOrder, inOrder, and postOrder which returns an array of the values, in appropriate order.
 
 ## Solution
-![Image](../../assests/CC15.jpg)
+![Image](../../assets/CC15.jpg)

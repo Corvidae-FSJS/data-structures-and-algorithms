@@ -12,4 +12,4 @@ Implement a Hashtable that add, gets, contains and hashes.
 - contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
 
 ### Solution
-![Image](../../assests/CC30.jpg)
+![Image](../../assets/CC30.jpg)

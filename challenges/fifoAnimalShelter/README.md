@@ -12,4 +12,4 @@ Implement the following methods:
 
 
 ### Solution
-![Image](../../assests/CC12.jpg)
+![Image](../../assets/CC12.jpg)

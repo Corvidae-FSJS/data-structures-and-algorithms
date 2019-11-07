@@ -16,4 +16,4 @@ Return new array
 }
 
 ### Solution
-![Image](../../assests/CC01.jpg)
+![Image](../../assets/CC01.jpg)

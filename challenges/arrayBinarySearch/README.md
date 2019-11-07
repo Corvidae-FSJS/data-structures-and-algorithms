@@ -11,4 +11,4 @@ Use a while loop to cut the array in half, search each half to see if the num in
 
 
 ### Solution
-![Image](../../assests/CC03.jpg)
+![Image](../../assets/CC03.jpg)

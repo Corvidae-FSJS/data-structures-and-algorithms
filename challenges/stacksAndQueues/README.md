@@ -20,4 +20,4 @@ This object should be aware of a default empty value assigned to front when the 
 I created a node class that stores values for the node and a pointer to the next node. Then created a stack class with a top property which makes an empty stack when instantiated. And then I created a queue class with a front property that instantiates an empty queue.
 
 ## Solution
-![Image](../../assests/CC10.jpg)
+![Image](../../assets/CC10.jpg)
