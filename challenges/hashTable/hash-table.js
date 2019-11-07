@@ -8,6 +8,28 @@ class Hashtable {
     return key.toString()
       .length % this.size;
   }
+
+  add(key, value) {
+    const index = this.hash(key);
+
+    if(!this.bucket[index]) {
+      this.bucket[index] = [];
+    }
+    this.bucket[index].push(value);
+  }
+
+  get(key) {
+    const index = this.hash(key);
+
+    if(!this.bucket[index])
+      return null;
+
+    for(let i = 0; i < this.size; i++) {
+      if(this.bucket[i] === this.bucket[index]) {
+        return this.bucket[i];
+      }
+    }
+  }
 }
 
 module.exports = Hashtable;
