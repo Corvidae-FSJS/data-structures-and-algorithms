@@ -41,3 +41,5 @@
 ## Challenge 31: Repeated Word
 
 ## Challenge 32: Tree Intersection
+
+## Challenge 33: Left Join
