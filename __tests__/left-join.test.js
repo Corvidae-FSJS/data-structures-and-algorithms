@@ -17,9 +17,9 @@ describe('Left Join Functionality', () => {
     table2.add('flow', 'jam');
     console.log(table1, table2);
     
-
     expect(leftJoin(table1, table2)).toEqual([
       ['fond', 'enamored', 'averse'],
+      ['wrath', 'anger', 'delight'],
       ['guide', 'usher', null],
       ['outfit', 'garb', null],
       ['diligent', 'employed', 'idle']
