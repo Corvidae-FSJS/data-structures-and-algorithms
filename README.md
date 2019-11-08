@@ -37,3 +37,7 @@
 ## Challenge 28: Quick Sort
 
 ## Challenge 30: Hash Table Implementation
+
+## Challenge 31: Repeated Word
+
+## Challenge 32: Tree Intersection
