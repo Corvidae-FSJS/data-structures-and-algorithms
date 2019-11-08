@@ -1,6 +1,6 @@
 const { Stack, Queue } = require('../challenges/stacksAndQueues/stacks-and-queues');
 
-describe('Stacks and Queues', () => {
+describe.skip('Stacks and Queues', () => {
   it('pushes a node onto the top of  a stack', () => {
 
     const testStack = new Stack();

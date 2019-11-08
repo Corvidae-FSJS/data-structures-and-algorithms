@@ -1,6 +1,6 @@
 const AnimalShelter = require('../challenges/fifoAnimalShelter/fifo-animal-shelter.js');
 
-describe('Animal Shelter Model Tests', () => {
+describe.skip('Animal Shelter Model Tests', () => {
   it('successfully enqueue cats and dogs', () => {
     const animalShelter = new AnimalShelter();
     const cat1 = { name: 'CMO', type: 'cat' };

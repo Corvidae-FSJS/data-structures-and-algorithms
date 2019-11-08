@@ -29,3 +29,7 @@
 ## Challenge 17: Breadth First Tree Traversal
 
 ## Challenge 18: Find Maximum Value In A Binary Tree
+
+## Challenge 26: Insertion Sort
+
+## Challenge 27: Merge Sort

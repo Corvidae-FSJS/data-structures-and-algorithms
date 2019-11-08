@@ -1,6 +1,6 @@
 const { BinaryTree } = require('../challenges/tree/tree');
 
-describe('Binary tree', () => {
+describe.skip('Binary tree', () => {
 
   it('Can successfully instantiate an empty tree', () => {
     const emptyTree = new BinaryTree();

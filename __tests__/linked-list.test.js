@@ -1,6 +1,6 @@
 const { LinkedList } = require('../challenges/linkedList/linked-list');
 
-describe('linked lists', () => {
+describe.skip('linked lists', () => {
   it('can make an empty list', () => {
     const list = new LinkedList;
     const result = {

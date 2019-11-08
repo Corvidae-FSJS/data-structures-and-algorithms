@@ -1,7 +1,7 @@
 const { BinaryTree } = require('../challenges/tree/tree');
 const { fizzBuzzTree } = require('../challenges/fizzbuzz-tree/fizz-buzz-tree');
 
-describe('FizzBuzz Tree', () => {
+describe.skip('FizzBuzz Tree', () => {
   it('determines if value of each node is divisble by 3, 5, or both', () => {
     const tree = new BinaryTree();
     tree.add(5);
