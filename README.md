@@ -33,3 +33,5 @@
 ## Challenge 26: Insertion Sort
 
 ## Challenge 27: Merge Sort
+
+## Challenge 28: Quick Sort

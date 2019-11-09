@@ -1,4 +1,4 @@
-## Challenge 26: Merge Sort
+## Challenge 27: Merge Sort
 Merge Sort
 
 ### Challenge
