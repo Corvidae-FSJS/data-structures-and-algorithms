@@ -1,5 +1,13 @@
 const leftJoin = (table1, table2) => {
   let results = [];
+
+  // for(let [key, value] of Object.entries(table1)) {
+  //   if(table2[key]) {
+  //     results.push([key, value, table2[key]]);
+  //   } else {
+  //     results.push([key, value, null]);
+  //   }
+  // }
   for(let i = 0; i < table1.bucket.length; i++) {
     if(table1.bucket[i] !== undefined) {
 
