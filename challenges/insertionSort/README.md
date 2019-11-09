@@ -20,4 +20,4 @@ InsertionSort(int[] arr)
 
 
 ### Solution
-![Image](../../assests/CC26.jpg)
+![Image](../../assets/CC26.jpg)

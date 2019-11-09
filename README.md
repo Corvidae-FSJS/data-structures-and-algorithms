@@ -35,3 +35,5 @@
 ## Challenge 27: Merge Sort
 
 ## Challenge 28: Quick Sort
+
+## Challenge 30: Hash Table Implementation

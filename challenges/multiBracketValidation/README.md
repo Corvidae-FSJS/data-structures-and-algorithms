@@ -13,4 +13,4 @@ Curly Brackets : {}
 Create a stack, push displayed bracket into array, pop brackets off when opposing bracket encountered.
 
 ## Solution
-![Image](../../assests/CC13.jpg)
+![Image](../../assets/CC13.jpg)

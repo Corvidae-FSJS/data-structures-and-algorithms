@@ -8,4 +8,4 @@ Breadth-first Traversal.
 
 
 ## Solution
-![Image](../../assests/CC16.jpg)
+![Image](../../assets/CC16.jpg)

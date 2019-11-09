@@ -12,4 +12,4 @@ Implement a Singly Linked List Data Structure
 
 
 ### Solution
-![Image](../../assests/CC02.jpg)
+![Image](../../assets/CC02.jpg)

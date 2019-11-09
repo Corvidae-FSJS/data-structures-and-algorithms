@@ -38,4 +38,4 @@ ALGORITHM Swap(arr, i, low)
     arr[low] <-- temp
 
 ### Solution
-![Image](../../assests/CC28.jpg)
+![Image](../../assets/CC28.jpg)
