@@ -27,7 +27,7 @@ describe('Graph Class Functionality', () => {
     expect(test.getNodes()).toEqual(['Eks', 'Corvidae', 'Kaon']);
   });
 
-  it('returns a collection of nodes connected to the given node', () =>  {
+  it('returns a collection of nodes connected to the given node', () => {
     const test = new Graph();
     test.addNode('Eks');
     test.addNode('Corvidae');
