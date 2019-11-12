@@ -9,8 +9,8 @@ class Graph {
   }
 
   addEdge(node1, node2, weight) {
-    this.nodeList.get(node1).push({ [node2]: weight });
-    this.nodeList.get(node2).push({ [node1]: weight });
+    this.nodeList.get(node1).push({[node2]: weight});
+    this.nodeList.get(node2).push({[node1]: weight});
   }
 
   getNodes() {
