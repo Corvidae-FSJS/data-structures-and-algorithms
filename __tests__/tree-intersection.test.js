@@ -1,7 +1,7 @@
 const { BinaryTree } = require('../challenges/tree/tree');
 const treeIntersection = require('../challenges/treeIntersection/tree-intersection');
 
-describe('Tree Intersection Functionality', () => {
+describe.skip('Tree Intersection Functionality', () => {
   it('returns values found in both trees', () => {
     const tree1 = new BinaryTree();
     tree1.add('Dylan');
