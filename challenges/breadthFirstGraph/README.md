@@ -1,4 +1,4 @@
-## Challenge 36: breadth First Graph Implementation
+## Challenge 36: Breadth First Graph Implementation
 Implement a breadth-first traversal on a graph.
 
 ### Challenge
@@ -6,9 +6,15 @@ Implement a breadth-first traversal on a graph.
 
 
 ### Approach & Efficiency
-Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a queue.
+Create a Queue and add the initial node in it.
+Mark the first node as explored.
+Visit the adjacent unvisited vertex. 
+Mark it as visited. 
+Display it. 
+Insert it in a queue.
 If no adjacent vertex is found, remove the first vertex from the queue.
-Repeat Rule 1 and Rule 2 until the queue is empty.
+Repeat until the queue is empty.
+Log each node as discovered.
 
 
 ### Solution

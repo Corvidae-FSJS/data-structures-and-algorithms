@@ -46,4 +46,4 @@
 
 ## Challenge 35: Graph Implementation
 
-## Challenge 36: breadth First Graph Implementation
+## Challenge 36: Breadth First Graph Implementation
