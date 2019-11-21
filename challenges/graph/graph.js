@@ -1,5 +1,5 @@
 const { Queue } = require('../stacksAndQueues/stacks-and-queues');
-const { Hashtable } = require('../hashTable/hash-table');
+//const { Hashtable } = require('../hashTable/hash-table');
 
 class Node {
   constructor(value) {
@@ -41,6 +41,35 @@ class Graph {
   size() {
     return this.nodeList.size;
   }
+
+  // breadthFirst(node, addNode) {
+  //   // Create a Queue and add the initial node in it
+  //   let q = new Queue();
+  //   let explored = new Set();
+  //   q.enqueue(node);
+ 
+  //   // Mark the first node as explored.
+  //   addNode(node);
+ 
+  //   // Continue till the queue gets empty
+  //   while(!q.isEmpty()) {
+  //     let t = q.dequeue();
+ 
+  //      // Log every element that comes out of the Queue
+  //     console.log(t);
+ 
+  //      // In the edges object, search for nodes this node is directly connected to.
+  //      // Filter out the nodes that have already been explored.
+  //      // Then mark each unexplored node as explored and add it to the queue.
+  //     this.edges[t]
+  //       .filter(n => !explored.has(n))
+  //       .forEach(n => {
+  //         explored.add(n);
+  //         q.enqueue(n);
+  //       });
+  //   }
+  // }
+
 
   breadthFirst(initial) {
     let visitList = new Queue();

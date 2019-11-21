@@ -1,24 +1,22 @@
-const { Graph, Node } = require('../challenges/graph/graph');
+const { Graph } = require('../challenges/graph/graph');
 
 describe('breadth first traversal of graph class', ()=> {
   it('A collection of all nodes can be properly retrieved from the graph', ()=> {
-    const graph = new Graph();
-    const node1 = new Node('A');
-    const node2 = new Node('B');
-    const node3 = new Node('C');
-    const node4 = new Node('D');
-    const node5 = new Node('E');
-    graph.addNode(node1);
-    graph.addNode(node2);
-    graph.addNode(node3);
-    graph.addNode(node4);
-    graph.addNode(node5);
-    graph.addEdge(node1, node2);
-    graph.addEdge(node2, node3);
-    graph.addEdge(node3, node4);
-    graph.addEdge(node3, node5);
-    graph.addEdge(node2, node5);
-    graph.addEdge(node1, node5);
-    expect(graph.breadthFirst(node1)).toEqual(['A', 'B', 'E', 'C', 'D']);
+    let graph = new Graph();
+    graph.addNode('A');
+    graph.addNode('B');
+    graph.addNode('C');
+    graph.addNode('D');
+    graph.addNode('E');
+    graph.addNode('F');
+    graph.addNode('G');
+
+    graph.addEdge('A', 'C');
+    graph.addEdge('A', 'B');
+    graph.addEdge('A', 'D');
+    graph.addEdge('D', 'E');
+    graph.addEdge('E', 'F');
+    graph.addEdge('B', 'G');
+    expect(graph.breadthFirst('A')).toEqual(['A', 'B', 'E', 'C', 'D']);
   });
-});
+}); 
